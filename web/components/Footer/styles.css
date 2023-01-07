@@ -1,0 +1,25 @@
+section.footer{
+  padding: 40px 0;
+  background-color: var(--primary);
+  border-top: 1px solid rgba(200, 200, 200, 0.5);
+}
+section.footer >.container{
+  max-width: 1000px;
+}
+.flex-footer{
+  display: flex;
+  flex-wrap:wrap;
+}
+.wrap-content{
+  width: 30.0%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.wrap-content p{
+  color: var(--secondary);
+}
+.wrap-content h4{
+  font-size: 18px;
+  padding: 15px 0;
+  color: var(--secondary);
+}

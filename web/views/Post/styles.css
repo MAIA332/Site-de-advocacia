@@ -1,0 +1,36 @@
+.container-post{
+    max-width: 1400px;
+    padding: 0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 300;
+    padding: 20px 0;
+    border-bottom: 2px solid var(--mediumGray);
+}
+.form-wrap{
+    height: auto;
+    padding: 50px 50px;
+    width: 800px;
+}
+form span{
+    font-weight: 500;
+}
+form textarea, input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    border: 0.4px solid var(--mediumGray);
+}
+form input[type=submit]{
+    font-weight: 500;
+    padding: 13px;
+    cursor: pointer;
+}
+form input[type=submit]:hover{
+    opacity: 0.8;
+}

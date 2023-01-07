@@ -1,0 +1,301 @@
+
+:root{
+    --background: #f1f1f1;
+    --primary: rgb(9, 9, 9);
+    --secondary: #fcfcfc;
+    --tertiary: #333;
+    --selected: #5271ff;
+    --silver: #dfdfdf;
+    --slateBlue: #6959CD; 
+    --ghostWhite: #F8F8FF; 
+    --mediumSlateBlue: #7B68EE;
+    --dark: #555;
+    --mediumGray: rgb(188, 188, 188);
+    --Gainsbro: #ececec;    
+    --SkyBlue: #87CEEB; 
+    --Bluelime: #00B7FF;
+    --Limegreen: #32cd32;
+    --purple: #8a2be2;
+}
+
+
+
+body{
+	background-color: var(--Gainsbro);
+	font-family: 'Roboto';
+	color: var(--dark);
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Roboto;
+	font-weight: 600;
+}
+
+p{
+	margin:0;
+	padding:0;
+	line-height: 24px;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a:hover,a:active,a:focus {
+	outline: 0 !important;
+}
+
+
+
+:focus {
+	outline:none;
+}
+
+::-moz-focus-inner {
+	border:0;
+}
+
+.color{
+	background: var(--Bluelime);
+}
+.color-hover{
+	background: var(--Bluelime);
+}
+
+
+.banner {
+	border-top: 8px solid var(--Bluelime);
+	background: var(--secondary) url('../bookshelf0.jpg') repeat-x   top;
+	background-attachment: fixed;
+	
+}
+
+.banner .container {
+	max-width: 800px;
+}
+
+.banner .banner-content {
+	padding: 150px 0; 
+}
+
+.banner .banner-content p {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-transform: capitalize;
+	letter-spacing: 0.1em;
+	color: var(--secondary);
+}
+
+.banner .banner-content .btn {
+	border-radius: 3px;
+}
+
+.feature {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+.feature .feature-item {
+	max-width: 360px;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.feature .feature-item i {
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 89px;
+	margin: 0 auto;
+	font-size: 40px;
+	color: var(--Bluelime);
+	margin-bottom: 30px;
+	border: 1px solid var(--Bluelime);
+	border-radius: 50%;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.feature .feature-item:hover i {
+	background: var(--Bluelime);
+	color: var(--secondary);
+}
+
+.feature .feature-item h4 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+
+.feature .feature-item p {
+	line-height: 25px;
+	letter-spacing: 0.035em;
+}
+
+
+
+@media (max-width: 480px){
+
+}
+
+@media (max-width: 767px){
+	.banner .banner-content { text-align: center;}
+	.banner .banner-content img {
+		max-width: 180px;
+		margin: 0 auto;
+	}
+	
+}
+
+@media (max-width: 991px){
+
+}
+
+.header{
+    visibility: hidden;
+    position:absolute;
+}
+
+@media (max-width: 767px){
+
+ header{
+     visibility:hidden;
+ }
+
+ .header{
+     visibility: visible;
+     
+ }
+ 
+.header {
+    background-color: var(--tertiary);
+    box-shadow: 1px 1px 4px 0 var(--primary);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  header a {
+    
+    color:  black;
+    text-decoration: none;
+  }
+  
+  .header a:hover{
+    color: white;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: var(--tertiary);
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid white;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    color: var(--secondary);
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: var(--primary);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: var(--secondary);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+}

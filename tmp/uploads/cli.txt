@@ -1,0 +1,45 @@
+npm init -y --- cria o projeto e o package json e ja responde as perguntas automaticamente
+yarn add knex
+yarn add sqlite3
+npx knex init (vai criar um arquivo para config de acesso ao banco de dados)
+
+npx knex migrate:make create_ongs // cria a migration
+npx knex migrate:latest // executa a ultima migration criada, criando a tabela
+npx knex migrate:make create_incidents
+
+npx knex migrate:down //para deletar a ultima tabela criada
+
+npx knex migrate:rollback //desfaz a ultima tabela criada
+npx knex migrate:status  //lista tds as migrations ja executadas
+yarn add cors
+
+
+login no github
+new repostory
+criar gitignore em src
+colocar oq n eh pra ser enviado
+clicar no icone do git
+colocar oq deve ter no commit
+clicar no tiq
+ctrl shift p
+git add remote
+dar nome pro remote (origin geralmente)
+colocar a url do repositorio
+push ou enviar por push
+
+
+git config user.email "email@example.com"
+git config user.name "username"
+git add .
+git commit -m "nome"
+git push -u origin master
+
+yarn add celebrate
+yarn add jest
+npx jest --init
+Y
+Enter
+N
+Y
+
+

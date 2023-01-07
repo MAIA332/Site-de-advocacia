@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Roboto';
+}
+
+h2,h3,h4,h5,h6{
+    color: whitesmoke;
+    cursor: default;
+}
+
+h3{
+    margin-top: 5%;
+}
+
+form{
+    margin-top: 5%;
+    /* background-color: darkgrey;*/
+}
+
+form label{
+    color:  #FFF;
+    cursor: default;
+    transition: 0.3s ease-in;
+}
+
+input, textarea::placeholder{
+    color: gainsboro;
+}
+
+form input[type="text"]{
+    background-color: transparent;
+    width: 40%;
+    margin-left: 2%;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    border-radius: 3px;  
+    transition: 0.3s ease-in;
+}
+input[type=text], textarea{
+    color: rgb(116, 116, 116);
+}
+
+input[type="button"]{
+    background-color: transparent;
+    width: 15%;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+input[type="text"]:hover{
+    border-bottom: 1px solid violet;
+}
+
+input[type="submit"]:hover{
+    border-bottom: 1px solid violet;
+    width: 25%;
+    color: violet;
+}
+
+input:focus {
+    outline:0;
+}
+
+form textarea{
+    background-color: transparent;
+    width: 50%;
+    margin-left: 3%;
+    resize: none;
+    transition: 0.3s ease-in ;
+}
+
+form textarea:hover{
+    border: 1px solid violet;
+    outline: 0;
+}
+
+#img_1{
+    position: absolute ;
+    margin-left: 6%;
+    margin-top: -4%;
+}
+
+.checkArea{
+    display: block;
+}
+
