@@ -20,7 +20,8 @@ Bem-vindo ao repositório do Site de Advocacia desenvolvido em HTML e PHP! Este 
 5. Hospede o site em seu servidor e teste-o em diferentes dispositivos.
 
 
-Este repositório é um exemplo prático de como criar um site profissional para um escritório de advocacia usando HTML e PHP. Ele combina informações detalhadas com funcionalidades interativas para proporcionar uma experiência valiosa aos visitantes.
+> "Este repositório é um exemplo prático de como criar um site profissional para um escritório de advocacia usando HTML e PHP. Ele combina informações detalhadas com funcionalidades interativas para proporcionar uma experiência valiosa aos visitantes."
+
 ---
 
 <p align="center">
